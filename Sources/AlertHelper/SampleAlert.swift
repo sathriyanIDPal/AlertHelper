@@ -17,6 +17,7 @@ public class SampleAlert {
         alertView = AlertView(title: title, message: message)
     }
     
+    /// Function to show alert
     public func showAlert() {
         parentVC.view.addSubview(alertView)
     }
